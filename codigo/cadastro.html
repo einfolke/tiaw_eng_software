@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <title>Sports Matches - Cadastro</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="right-login">
+            <img class="background" src="./img/background.jpg" alt="background">
+        </div>
+
+        <div class="left-login">
+            <div class="card-login">
+                <img src="./img/Logo.svg" id="logo" alt="logo" width="300px">
+                <h3>CRIE SUA CONTA</h3>
+                <div class="label">
+                    <label for="nome-completo">NOME COMPLETO:</label>
+                </div>
+                <input class="form" id="nome" type="text" placeholder="">
+                <div class="label">
+                    <label for="senha">E-MAIL:</label>
+                </div>
+                <input class="form" id="e-mail" type="text" placeholder="">
+
+                <div class="label">
+                    <label for="e-mail">DATA DE NASCIMENTO:</label>
+                </div>
+                <input class="form" id="data-nascimento" type="text" placeholder="">
+
+                <div class="label">
+                    <label for="e-mail">CPF:</label>
+                </div>
+                <input class="form" id="cpf" type="text" placeholder="">
+                <div class="label">
+                    <label for="e-mail">SENHA:</label>
+                </div>
+                <input class="form" id="senha" type="password" placeholder="">
+                <div class="label">
+                    <label for="e-mail">CONFIRMAR SENHA:</label>
+                </div>
+                <input class="form" id="confirmar-senha" type="password" placeholder="">
+                <button onclick="cadastrarUsuario()" id="signup-button">CADASTRO</button>
+
+                <h5>OU</h5>
+                <button id="signup-button2">CADASTRO COM O GOOGLE</button>
+                <button id="signup-button2">CADASTRO COM O FACEBOOK</button>
+                <p>Já tem uma conta?<a id="cadastro" href="login.html">Faça login aqui</a></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/cadastro.js"></script>
+</body>
+
+</html>

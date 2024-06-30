@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "nome": "123",
+      "email": "123",
+      "dataNascimento": "123",
+      "cpf": "123",
+      "senha": "123",
+      "confirmarSenha": "123",
+      "id": 1
+    },
+    {
+      "nome": "teste",
+      "email": "teste@gmai.com",
+      "dataNascimento": "18/02/2005",
+      "cpf": "130 580 765 39",
+      "senha": "12312312",
+      "confirmarSenha": "12312313",
+      "id": 2
+    }
+  ]
+}

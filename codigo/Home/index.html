@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Matchs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/carrossel.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/rodapé.css">
+    <link rel="stylesheet" href="styles/topicos.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+            <img src="/codigo/Home/img/Logo.svg" alt="Logo" class="container__imagem">
+        </div>
+
+        <ul class="opções">
+            <li class="opções__item"><a href="#" class="opções__link">Home</a></li>
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Minhas Partidas</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="" class="container__link">
+                <img src="img/adicionar.svg" alt="botão adicionar" class="container__imagem">
+                <p class="container__texto">Criar uma Partida</p>
+                
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe o que vai jogar?</h2>
+        <p class="banner__texto">Busque por partidas na sua região</p>
+        <input type="search" class="banner__pesquisa" placeholder="Onde você quer uma partida?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">PARTIDAS EM DESTAQUE</h2>
+        <div id="partidas-container" class="carrossel__container">
+            <!-- Os cards serão inseridos aqui via JavaScript -->
+        </div>
+    </section>
+    
+    
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das partidas na sua região!</h2>
+            <p class="contato__texto">Atualizações de partidas e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Grupo Sports Matchs</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Desenvolvedores</li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Cauê Afonso Moraes</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Gabriel Peçanha Diniz</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Jordan Oliveira</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Lorena de Paula</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Matheus Bianco Fox Drummond</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Vitor Veiga Silva</a>
+        </ul>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <style>
+        .invite-button {
+            border: 2px solid #FFA07A; /* Cor da borda */
+            background-color: #FFFFFF; /* Cor de fundo */
+            color: #008000; /* Cor do texto */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 25px; /* Cantos arredondados */
+        }
+
+        /* Estilo para a notificação de link copiado */
+        .copied-notification {
+            display: none;
+            color: #008000; /* Cor do texto */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="invite-button" onclick="generateLink()">+ Adicionar um amigo</button>
+    <p class="copied-notification">Você copiou o link!</p>
+
+    <script>
+        function generateLink() {
+            // Gere o link de convite (substitua com a lógica real)
+            var inviteLink = "http://example.com/convite?partida=amadora"; // Link de exemplo
+            navigator.clipboard.writeText(inviteLink).then(function() {
+                // Exiba a notificação de link copiado
+                document.querySelector('.copied-notification').style.display = 'block';
+                setTimeout(function() {
+                    document.querySelector('.copied-notification').style.display = 'none';
+                }, 2000); // Oculte a notificação após dois segundos
+            }).catch(function(error) {
+                console.error('Não foi possível copiar o texto:', error);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

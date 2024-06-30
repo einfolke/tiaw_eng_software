@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./styles/perfil.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/search.css">
+</head>
+
+<body>
+    <section>
+     <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+            <img src="./img/Logo.svg" alt="Logo" class="container__imagem">
+        </div>
+
+        <ul class="opções">
+            <li class="opções__item"><a href="#" class="opções__link">Home</a></li>
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="./listagem-partidas.html" class="opções__link">Minhas Partidas</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="./img/Favorito.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="./cadastro-partida.html" class="container__link">
+                <img src="./img/adicionar.svg" alt="botão adicionar" class="container__imagem">
+                <p class="container__texto">Criar uma Partida</p>
+                
+            </a>
+                </ul>
+                    <div class="container">
+                        <input type="checkbox" id="perfil" class="container__botao">
+                        <label for="perfil" class="container__rotulo">
+                            <span class="cabeçalho__perfil-hamburguer container__imagem"></span>
+                        </label>
+                        <ul class="lista-perfil">
+                            <li class="lista-perfil__titulo">Login/Cadastro </li>
+                            <a href="./login.html" class="lista-perfil__link">Login</a>
+                        </ul>
+                    </div>
+                    <ul class="opções">
+                        <img src="./img/Usuario.svg" alt="Login/Cadastro" class="container__imagem">
+                        <input type="checkbox" id="opções-perfil" class="opções__botão">
+                        <label for="opções-perfil" class="opções__rotulo">
+                        <li class="opções__item_perfil">Login/Cadastro</li>
+                        </label>
+        </div>
+    </section>
+    </header>
+    <body>
+        <div class="container">
+            <div class="left-column">
+                <img src="./img/eu-mesmo.jpg" width="300" height="300" alt="imagem de perfil" class="perfil">
+                <div class="texto">
+                    <div class="card custom-rounded" id="cardzada">
+                        <h1 class="tituloDescricao">Descrição: </h1>
+                        <textarea type="text" id="descricaoOutput" rows="4"></textarea>
+                    </div>
+                    <div class="mt-2 d-flex justify-content-center">
+                        <button onclick="alteraPerfil()" class="buttonPerfil">Editar perfil</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="header">
+                    <h1 class="Titulo">Meu perfil</h1>
+                    <div class="linha"></div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="nomeUser" class="laranja">NOME:</label>
+                        <input type="text" class="inputText full-width" id="nomeUser">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefoneUser" class="laranja">TELEFONE:</label>
+                        <input type="text" class="inputText" id="telefoneUser">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailUser" class="laranja">E-MAIL:</label>
+                        <input type="text" class="inputText" id="emailUser">
+                    </div>
+                    <div class="form-group">
+                        <label for="dataUser" class="laranja">DATA:</label>
+                        <input type="date" class="inputText" id="dataUser">
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <script src="./js/perfil.js"></script>
+    </body>
+    
+    </html>
+
+    <script src="./js/perfil.js"></script>
+</body>
+
+</html>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/perfil.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+    "usuarios": [
+      {
+        "nome_da_partida": "FUT DO LEO",
+        "nome": "Leonardo Oliveira",
+        "descricao": "Pelada de Futebol Amador em",
+        "cidade": "Coração Eucaristico",
+        "rating": 5,
+        "imagem": "img/Card Leonardo.svg"
+      },
+      {
+        "nome_da_partida": "VOLEI DO HUGO",
+        "nome": "Hugo Mendes",
+        "descricao": "Volei Amador em",
+        "cidade": "Padre Eustaquio",
+        "rating": 5,
+        "imagem": "img/Card Hugo.svg"
+      },
+      {
+        "nome_da_partida": "BASQUETE DA ISA",
+        "nome": "Isabela Pereira",
+        "descricao": "Volei Amador na",
+        "cidade": "Pampulha",
+        "rating": 5,
+        "imagem": "img/Card Bia.svg"
+      },
+      {
+        "nome_da_partida": "HANDBALL DO PEDRO",
+        "nome": "Pedro Maia",
+        "descricao": "Hand em grupo com divisão do valor da quadra em",
+        "cidade": "Nova Gameleira",
+        "rating": 5,
+        "imagem": "img/Card Pedro.svg"
+      }
+    ]
+  }
+  

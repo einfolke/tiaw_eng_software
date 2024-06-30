@@ -1,0 +1,117 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade:#00BF63;
+    --fonte-principal: "Poppins";
+    --verde: #00BF63;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+/* Adicione isso ao seu arquivo styles.css */
+
+.carrossel__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Ajuste conforme necessário */
+    padding: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 350px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+    padding: 20px;
+}
+.card__descrição {
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.descricao__imagem {
+    max-width: 90%;
+    border-radius: 50%;
+    margin-left: 30px;
+    border: 6px solid var(--verde); /* Adicione esta linha para adicionar uma borda colorida */  
+}
+.rating{
+    font-size: 12px;
+}
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao__titulo{
+    color: #FF914D;
+    font-weight: 700;
+    font-size: 35px;
+}
+.card__titulo {
+    color: var(--verde);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.botao__more {
+    background-color: #FF914D;
+    padding: 1em 2.2em;
+    color: var(--branco);
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5%;
+    font-family: var(--fonte-principal);
+    height: 25%;
+    width: 40%;
+    margin-left: 22.5%;
+    margin-top: 5%;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card .left{
+    border-right: 1px solid #ccc;
+}
+.card .right{
+    text-align:center ;
+}
+.card__botões{
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 1.1%;
+}
+.heartIcon {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    fill: #fff;
+}
+
+.heartIcon.filled {
+    fill: red;
+}

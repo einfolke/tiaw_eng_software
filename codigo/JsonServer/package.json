@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "concurrently \"json-server --watch ../json/dados.json \" \" live-server \""
+  }
+}
