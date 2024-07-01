@@ -1,0 +1,133 @@
+img.perfil {
+    border-radius: 50%;
+    border: 5px solid #ff914d; /* Largura, estilo e cor da borda */
+}
+.casa a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Titulo{
+    color: #ff914d;
+}
+/* Linha horizontal colorida com laranja vibrante */
+.linha{
+    background-color: #ff914d;
+    height: 2px;
+}
+.navegacao{
+  margin: 0px 5px ;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.casa{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 17rem;
+}
+.casa p{
+  margin: 0px 2.5rem;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  height: 1rem;
+}
+
+
+.casa-p{
+  margin-left: -5rem;
+}
+.user p{
+  margin: 0px 1rem;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+}
+.user{
+  display: flex;
+  margin-left: 10rem;
+}
+.laranja{
+    color: #ff914d;
+}
+
+.inputText{
+    color: #ff914d;
+    border-color: #ff914d;
+    border-radius: 10px;
+}
+
+#descricaoOutput{
+    border: none;
+    color: #ff914d;
+    font-size: 16px; /* Define o tamanho da fonte para 16 pixels */
+    font-family: Arial, sans-serif; /* Define a família da fonte */
+    text-align: left; /* Define o alinhamento do texto para a esquerda */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    resize: none;
+}
+
+.tituloDescricao{
+    font-size: 20px; /* Define o tamanho da fonte para 16 pixels */
+    color: #ff914d;
+}
+.custom-rounded {
+    border-radius: 20px !important;
+    border-color: #ff914d !important;
+  }
+
+.buttonPerfil{
+    color: #ff914d;
+    background-color: white;
+}
+
+.partidas {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para telas grandes */
+  @media (min-width: 992px) {
+    .partidas {
+      width: 48%; /* Ajuste conforme necessário */
+      margin-right: 2%; /* Espaçamento entre os cards */
+    }
+  
+    .partidas:nth-child(2n) {
+      margin-right: 0; /* Remove a margem do último card em cada linha */
+    }
+  }
+  
+  /* Estilos para telas médias */
+  @media (max-width: 991px) {
+    .partidas {
+      width: 100%; /* Cards ocupam a largura total */
+    }
+  }
+
+  textarea {
+    overflow-y: hidden; /* Esconde a barra de rolagem vertical */
+  }
+
+  /* Adicione ao seu arquivo style.css */
+
+.estrela {
+  color: #EB9B00 ; /* Define a cor das estrelas como laranja */
+}
+
+#cardzada{
+  margin-left: 0.5rem;
+  width: 350px;
+  padding: 7px;
+}
+  
+.texto{
+  display: flex;
+  justify-content: center;
+}

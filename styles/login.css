@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.left-login{
+    width: 55vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+.right-login{
+    width: 920px;
+    height: 10;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.card-login{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 35px;
+    background-color: white;
+    border: 2px;
+    border-radius: 20px;
+}
+h3{
+    color: #FF914D;
+    margin: 30px;
+}
+label{
+    margin: 20px;
+    color: #FF914D;;
+}
+.label{
+    margin:10px;
+    justify-content: start;
+    width: 90%;
+}
+.form{
+    width: 70%;
+    padding: 20px;
+    border: solid 3px #FF914D;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+
+}
+#login-button{
+    padding: 12px;
+    width: 180px;
+    margin: 25px;
+    font-weight: 700;
+    background-color: #FF914D;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+#login-button:hover{
+    background-color: #009A50;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+#login-button2{
+    padding: 12px;
+    width: 350px;
+    margin: 15px;
+    border-radius: 20px;
+    border: solid 2px #00b35c;
+    font-weight: bolder;
+    color: #FF914D;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+#login-button2:hover{
+    font-size: 15px;
+    background-color:#00b35c;
+    color: white;
+}
+p{
+    margin: 10px;
+    color: #FF914D;
+}
+#cadastro{
+    text-decoration: none;
+    color: #009A50;
+    padding: 5px;
+    margin-left: 5px;
+    border: solid 2px #009A50;
+    border-radius: 15px;
+    transition: all .3s ease-out;
+}
+#cadastro:hover{
+    font-weight: bolder;
+    background-color: #009A50;
+    color: white;
+}
+@media screen and (max-width: 1322px) {  
+    *{
+        font-size: small;
+    }
+    .left-login{
+        width: 100vw;
+    }
+    .right-login{
+        width: 0vw;
+    }
+    #logo{
+        width: 70vw;
+    }
+    .card-login{
+        width: 70%;
+        box-shadow: none;
+        border: 2px;
+    }
+    #login-button{
+        width: 65%;
+        background-color: white;
+    }
+    #login-button:hover{
+        font-size: 12px;
+        background-color: white;
+    }
+    #login-button2{
+        width: 75%;
+        background: white;
+        align-items: center;
+    }
+    #login-button2:hover{
+        font-size: 12px;
+        background: white;
+    }
+
+}

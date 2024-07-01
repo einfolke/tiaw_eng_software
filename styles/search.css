@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.search input{
+  height: 55px;
+  width: 50%;
+  outline: none;
+  border-radius: 25px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  background-color: transparent;
+  border: 1px solid var(--branco);
+}
+
+.search.active input{
+  border-radius: 25px;
+}
+
+.search .list{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.search.active .list{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.list li{
+    margin: auto;
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 50%;
+  cursor: default;
+  border-radius: 3px;
+    border-color: white;
+}
+
+.search.active .list li{
+  display: block;
+}
+.list li:hover{
+  background: #efefef;
+}
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 12em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+}
