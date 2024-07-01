@@ -72,6 +72,7 @@ label{
     margin: 25px;
     font-weight: 700;
     background-color: #FF914D;
+    font-weight: 700;
     border-radius: 20px;
     color: white;
     cursor: pointer;
@@ -111,6 +112,7 @@ p{
     border: solid 2px #009A50;
     border-radius: 15px;
     transition: all .3s ease-out;
+    font-weight: 700;
 }
 #cadastro:hover{
     font-weight: bolder;
@@ -138,6 +140,7 @@ p{
     #login-button{
         width: 65%;
         background-color: white;
+        font-weight: 700;
     }
     #login-button:hover{
         font-size: 12px;
